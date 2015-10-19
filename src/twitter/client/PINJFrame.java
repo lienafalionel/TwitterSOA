@@ -143,5 +143,7 @@ public class PINJFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JTextField jTextField1;
-    // End of variables declaration                   
+    // End of variables declaration  
+    
+
 }
