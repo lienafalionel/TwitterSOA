@@ -39,9 +39,9 @@ public class PINJFrame extends javax.swing.JFrame {
 
         jLabel1.setText("Code PIN");
 
-        jTextField1.setText("jTextField1");
+        jTextField1.setText("");
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Valider");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -97,6 +97,7 @@ public class PINJFrame extends javax.swing.JFrame {
 			public void mouseClicked(MouseEvent e) {
 				TwitterW.getOAuthClient().setVerifier(jTextField1.getText());
 				TwitterW.getOAuthClient().initOAuth();
+				setVisible(false);
 			}
 		});
         
