@@ -18,8 +18,8 @@ import org.scribe.oauth.OAuthService;
 
 public class OAuthClient {
 
-	private static final String CONSUMER_KEY = "e0aHjc3MmgpV5Q3c0YjipwMd3";
-	private static final String CONSUMER_SECRET = "xXNk9yIRR76FQ9rHHejIoEvqlmPzIex9V4PuVLKUWSO31nTN6V";
+	private static final String CONSUMER_KEY = "s6mZUMKqFIzunUwDEb3uVlOFT";
+	private static final String CONSUMER_SECRET = "GVEBn9MwjfehBbORQUeUcEZnBJfDH8Ct9EMhMhoYNsShtPDYJU";
 
 	private OAuthService service;
 	private Token requestToken;
